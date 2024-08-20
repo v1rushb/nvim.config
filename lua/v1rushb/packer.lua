@@ -27,5 +27,6 @@ return require('packer').startup(function(use)
   use 'L3MON4D3/LuaSnip'
   use 'neovim/nvim-lspconfig'
   use "rafamadriz/friendly-snippets"
+  use {'nvim-telescope/telescope-file-browser.nvim'}
 
   end)
