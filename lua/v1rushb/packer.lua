@@ -28,5 +28,5 @@ return require('packer').startup(function(use)
   use 'neovim/nvim-lspconfig'
   use "rafamadriz/friendly-snippets"
   use {'nvim-telescope/telescope-file-browser.nvim'}
-
+  use 'numToStr/Comment.nvim'
   end)
